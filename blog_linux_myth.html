@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+    <title>Howlix - Статья GNU Linux</title>
+    <link href="img/logo/favourite_icon_1.svg" rel="shortcut icon">
+
+    <!--    Framework (Bootstrap) - CSS Include    -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!--    Icon Font (Font Awesome) - CSS Include    -->
+    <link href="css/fontawesome.css" rel="stylesheet" type="text/css">
+
+    <!--    Animation (Animate.css) - CSS Include    -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--    Cursor (GSAP) - CSS Include    -->
+    <link href="css/cursor.css" rel="stylesheet" type="text/css">
+
+    <!--    Carousel (Slick) - CSS Include    -->
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+
+    <!--    Video & Image Popup (Magnific Popup) - CSS Include    -->
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!--    Calendar (Vanilla Calendar) - CSS Include    -->
+    <link href="css/vanilla-calendar.min.css" rel="stylesheet" type="text/css">
+
+    <!--    Main Style - CSS Include    -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+
+<!--    Обертка - Начало    -->
+<div class="page-wrapper">
+
+    <!--    Back To Top - Начало    -->
+    <div class="backtotop">
+        <a class="scroll" href="#">
+            <i class="far fa-arrow-up"></i>
+        </a>
+    </div>
+    <!--    Back To Top - Конец    -->
+
+    <!--    Шапка - Старт    -->
+    <header class="site_header site_header_1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col col-lg-3 col-5">
+                    <div class="site_logo">
+                        <a class="site_link" href="index.html">
+                            <img alt="Howlix - Просто о мире ОС" src="img/logo/site_logo.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-2">
+                    <nav class="main_menu navbar navbar-expand-lg">
+                        <div class="main_menu_inner collapse navbar-collapse justify-content-center"
+                             id="main_menu_dropdown">
+                            <ul class="main_menu_list unordered_list_center">
+                                <li><a class="nav-link" href="index.html">Главная</a></li>
+                                <li class="dropdown">
+                                    <a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#"
+                                       id="service_submenu" role="button">
+                                        ОСи
+                                    </a>
+                                    <ul aria-labelledby="service_submenu" class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#"
+                                               id="courses_layout_submenu" role="button">
+                                                Мобильные ОСи
+                                            </a>
+                                            <ul aria-labelledby="courses_layout_submenu" class="dropdown-menu">
+                                                <li><a href="wip.html">Apple iOS</a></li>
+                                                <li><a href="wip.html">Google Android</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#"
+                                               id="courses_details_submenu" role="button">
+                                                Настольные ОСи
+                                            </a>
+                                            <ul aria-labelledby="courses_details_submenu" class="dropdown-menu">
+                                                <li><a href="wip.html">Microsoft Windows</a></li>
+                                                <li><a href="wip.html">Apple MacOS</a></li>
+                                                <li><a href="wip.html">GNU Linux</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown active">
+                                    <a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#"
+                                       id="pages_submenu" role="button">
+                                        Блог
+                                    </a>
+                                    <ul aria-labelledby="pages_submenu" class="dropdown-menu">
+                                        <li><a href="blogs.html">Каталог статей</a></li>
+                                        <li class="dropdown active">
+                                            <a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#"
+                                               id="mentors_submenu" role="button">
+                                                Общие статьи
+                                            </a>
+                                            <ul aria-labelledby="mentors_submenu" class="dropdown-menu">
+                                                <li><a href="blog_windows_installation.html">Установка Windows на новый
+                                                    компьютер</a></li>
+                                                <li class="active"><a href="blog_linux_myth.html">GNU Linux на
+                                                    настольных компьютерах</a></li>
+                                                <li><a href="blog_python_automatization.html">Автоматизация рутины с
+                                                    помощью Python</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#"
+                                               id="events_submenu" role="button">
+                                                Pro статьи
+                                            </a>
+                                            <ul aria-labelledby="events_submenu" class="dropdown-menu">
+                                                <li><a href="wip.html">WIP</a></li>
+                                                <li><a href="wip.html">WIP</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="wip.html">F.A.Q.</a></li>
+                                        <li><a href="wip.html">Ценообразование</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-link" href="contact.html">Связь</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col col-lg-3 col-5">
+                    <ul class="header_btns_group unordered_list_end">
+                        <li>
+                            <button aria-controls="main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation"
+                                    class="mobile_menu_btn" data-bs-target="#main_menu_dropdown"
+                                    data-bs-toggle="collapse" type="button">
+                                <i class="far fa-bars"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <a class="btn border_dark" href="login.html">
+                    <span>
+                      <small>Login</small>
+                      <small>Login</small>
+                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn btn_dark" href="signup.html">
+                    <span>
+                      <small>Sign Up</small>
+                      <small>Sign Up</small>
+                    </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--    Шапка - Конец    -->
+
+    <!--    Основной контент - Начало    -->
+    <main class="page_content">
+
+        <!--    Представление - Начало    -->
+        <section class="page_banner">
+            <div class="container">
+                <div class="content_wrapper">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-8">
+                            <ul class="breadcrumb_nav unordered_list">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="blogs.html">Статьи</a></li>
+                                <li>GNU/Linux на настольных компьютерах</li>
+                            </ul>
+                            <h1 class="page_title mb-0">
+                                GNU/Linux на настольных компьютерах: реальность или миф?
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--    Представление - Конец    -->
+
+        <!--    Содержание - Начало    -->
+        <section class="details_section blog_details_section section_space_lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-8">
+                        <div class="details_image mb-4">
+                            <img alt="GNU Linux на десктопе" src="img/blog/details/linux_desktop.jpg">
+                        </div>
+                        <div class="details_content">
+                            <ul class="meta_info_list unordered_list mb-4">
+                                <li>
+                                    <a href="#!">
+                                        <i class="fas fa-thumbtack"></i>
+                                        <span>Sticky Post</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#!">
+                                        <i class="fas fa-user"></i>
+                                        <span>by Evo-Eclipse</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#!">
+                                        <i class="fas fa-calendar-day"></i>
+                                        <span>Nov 15, 2024</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <p class="mb-4">
+                                Когда мы говорим о <strong>GNU/Linux</strong>, на ум часто приходят образы серверных
+                                стоек,
+                                дата-центров и инженеров, внимательно изучающих логи. Но миф о том, что Linux —
+                                это исключительно серверная ОС, давно устарел. Сегодня всё больше пользователей
+                                задумываются:
+                                возможна ли комфортная жизнь с Linux на обычном настольном ПК? Или это всё ещё удел
+                                энтузиастов? Давай разберёмся. 🧐
+                            </p>
+
+                            <blockquote class="mb-4">
+                                <div class="blockquote_icon">
+                                    <img alt="Цитата" src="img/icon/icon_quote.svg">
+                                </div>
+                                <div class="blockquote_content">
+                                    <p class="mb-0">
+                                        «Linux на десктопе — это миф!» — утверждали когда-то. Но время идёт, и теперь у
+                                        нас есть
+                                        дистрибутивы, которые уделяют внимание дизайну, простоте настройки и удобству
+                                        для
+                                        обычных людей.
+                                    </p>
+                                </div>
+                            </blockquote>
+
+                            <p class="mb-4">
+                                Попробуем ответить на вопросы: в каких случаях Linux незаменим, а когда Windows всё же
+                                предпочтительнее? Обсудим популярные дистрибутивы для десктопа — <strong>Fedora</strong>,
+                                <strong>Debian</strong> и <strong>Linux Mint</strong> — и посмотрим, чем они хороши.
+                            </p>
+
+                            <h3 class="details_info_title mb-3">
+                                Серверное наследие: прочность и безопасность
+                            </h3>
+                            <p class="mb-4">
+                                Одно из ключевых преимуществ Linux — это надёжность и безопасность. На серверах Linux
+                                используют годами благодаря стабильности и возможности тонко управлять системой.
+                            </p>
+
+                            <p class="mb-3"><strong>Когда это имеет смысл только для серверов?</strong></p>
+                            <ul class="info_list unordered_list_block mb-4">
+                                <li><i class="fas fa-square"></i> Хостинг веб-сайтов, приложений, баз данных без простоя
+                                </li>
+                                <li><i class="fas fa-square"></i> Среды для DevOps и контейнеризации (Docker,
+                                    Kubernetes)
+                                </li>
+                                <li><i class="fas fa-square"></i> Задачи, требующие быстрой адаптации и скриптовой
+                                    автоматизации
+                                </li>
+                            </ul>
+
+                            <p class="mb-4">
+                                Здесь сфера Linux — на коне. Но это вовсе не значит, что на десктопах он беспомощен.
+                                Просто
+                                исторически Linux сначала завоевал серверный сегмент, а уже потом пошёл покорять столы
+                                обычных пользователей.
+                            </p>
+
+                            <h3 class="details_info_title mb-3">
+                                Когда Linux — Must Have для настольного компьютера?
+                            </h3>
+                            <p class="mb-4">
+                                Современные дистрибутивы Linux могут стать отличным выбором для тех, кто ценит гибкость,
+                                бесплатность и контроль над системой. Если ты разработчик, инженер или просто любитель
+                                экспериментов, Linux даст тебе массу возможностей:
+                            </p>
+
+                            <ol class="mb-4" type="1">
+                                <li>Бесплатность и открытость кода: никакой привязки к лицензионным ключам</li>
+                                <li>Огромный репозиторий ПО (APT, DNF, Flatpak, Snap)</li>
+                                <li>Минимум вирусов и вредоносного ПО</li>
+                                <li>Лёгкая настройка окружения для разработки — Python, Node.js, Ruby, Go и др.</li>
+                            </ol>
+
+                            <p class="mb-4">
+                                Кроме того, современные графические оболочки (GNOME, KDE Plasma, Cinnamon) уже давно
+                                догнали и
+                                порой перегнали Windows по удобству и гибкости.
+                            </p>
+
+                            <h3 class="details_info_title mb-3">
+                                Сильные и слабые стороны по сравнению с Windows
+                            </h3>
+                            <p class="mb-2"><strong>Плюсы Linux:</strong></p>
+                            <ul class="info_list unordered_list_block mb-4">
+                                <li><i class="fas fa-square"></i> Гибкость настроек и отсутствие жёсткой привязки к
+                                    экосистеме производителя
+                                </li>
+                                <li><i class="fas fa-square"></i> Стабильность и экономия ресурсов</li>
+                                <li><i class="fas fa-square"></i> Быстрая установка обновлений без принудительных
+                                    перезагрузок
+                                </li>
+                            </ul>
+
+                            <p class="mb-2"><strong>Минусы Linux:</strong></p>
+                            <ul class="info_list unordered_list_block mb-4">
+                                <li><i class="fas fa-square"></i> Ограниченный выбор коммерческих игр и
+                                    специализированного ПО
+                                </li>
+                                <li><i class="fas fa-square"></i> Возможны сложности с драйверами для экзотического
+                                    оборудования
+                                </li>
+                                <li><i class="fas fa-square"></i> Для некоторых задач требуется знание командной строки
+                                </li>
+                            </ul>
+
+                            <h3 class="details_info_title mb-3">
+                                Fedora, Debian, Mint: три варианта для настольного использования
+                            </h3>
+                            <p class="mb-4">
+                                <strong>Fedora</strong>: Новейшие технологии, свежие пакеты, GNOME в приоритете.
+                                Идеально для
+                                тех, кто любит новинки и прогресс, но обновления выходят часто, что может стать вызовом
+                                для
+                                новичков.
+                            </p>
+                            <p class="mb-4">
+                                <strong>Debian</strong>: Стабильность и проверенность временем. Пакеты не самые новые,
+                                зато
+                                предсказуемые. Отличный выбор, если хочешь уверенности и предсказуемости.
+                            </p>
+                            <p class="mb-4">
+                                <strong>Linux Mint</strong>: Дружелюбие к новичкам, удобный Cinnamon, простые настройки
+                                и
+                                привычная парадигма рабочего стола. Если переходишь с Windows и не хочешь «танцев с
+                                бубном» —
+                                Mint отличный старт.
+                            </p>
+
+                            <h3 class="details_info_title mb-3">
+                                Итог: реальность или миф?
+                            </h3>
+                            <p class="mb-4">
+                                Сегодня Linux на десктопе — уже не миф, а вполне реальность. Да, Windows остаётся
+                                лидером
+                                потребительского рынка, особенно в гейминге и корпоративных стандартах. Но если твои
+                                задачи —
+                                разработка, творчество, безопасность или просто интерес к альтернативам — Linux даст
+                                тебе всю
+                                мощь и свободу. Fedora, Debian и Mint — лишь три примера, но они ясно показывают: выбор
+                                есть, и
+                                он не ограничен серверами. Пробуй, экспериментируй, открывай новые горизонты! 🌱
+                            </p>
+
+                            <hr class="mb-4">
+                            <div class="row mb-4">
+                                <div class="col col-lg-6">
+                                    <ul class="item_category_list unordered_list mb-4">
+                                        <li><a href="#!">Linux</a></li>
+                                        <li><a href="#!">Fedora</a></li>
+                                        <li><a href="#!">Debian</a></li>
+                                        <li><a href="#!">Linux Mint</a></li>
+                                        <li><a href="#!">Operating Systems</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col col-lg-6 d-lg-flex justify-content-lg-end">
+                                    <ul class="social_links unordered_list mb-4">
+                                        <li><a href="#!"><i class="fab fa-telegram"></i></a></li>
+                                        <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <aside class="sidebar ps-lg-4">
+                            <div class="widget mb-4">
+                                <div aria-controls="collapse_blog" aria-expanded="true" class="widget_title"
+                                     data-bs-target="#collapse_blog" data-bs-toggle="collapse" role="button">
+                                    Связанные статьи
+                                </div>
+                                <div class="collapse show" id="collapse_blog">
+                                    <div class="card card-body p-3">
+                                        <ul class="blog_small_group unordered_list_block">
+                                            <li class="mb-3">
+                                                <a class="blog_small" href="blogs.html">
+                                          <span class="item_image">
+                                            <img alt="Howlix - Просто об ОС"
+                                                 src="img/blog/preview_s/page-placeholder.png">
+                                          </span>
+                                                    <span class="item_content ms-2">
+                                            <span class="item_author"><i class="fas fa-user-alt"></i> by Evo-Eclipse</span>
+                                            <strong class="item_title d-block">Настройка окружения разработки на Fedora</strong>
+                                            <small class="item_post_date">November 30, 2024</small>
+                                          </span>
+                                                </a>
+                                            </li>
+                                            <li class="mb-3">
+                                                <a class="blog_small" href="blogs.html">
+                                          <span class="item_image">
+                                            <img alt="Howlix - Просто об ОС"
+                                                 src="img/blog/preview_s/page-placeholder.png">
+                                          </span>
+                                                    <span class="item_content ms-2">
+                                            <span class="item_author"><i class="fas fa-user-alt"></i> by Evo-Eclipse</span>
+                                            <strong class="item_title d-block">Debian для серверов: почему так надёжно?</strong>
+                                            <small class="item_post_date">October 12, 2024</small>
+                                          </span>
+                                                </a>
+                                            </li>
+                                            <li class="mb-0">
+                                                <a class="blog_small" href="blogs.html">
+                                          <span class="item_image">
+                                            <img alt="Howlix - Просто об ОС"
+                                                 src="img/blog/preview_s/page-placeholder.png">
+                                          </span>
+                                                    <span class="item_content ms-2">
+                                            <span class="item_author"><i class="fas fa-user-alt"></i> by Evo-Eclipse</span>
+                                            <strong class="item_title d-block">Как перейти с Windows на Linux Mint без боли</strong>
+                                            <small class="item_post_date">September 15, 2024</small>
+                                          </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget mb-4">
+                                <div aria-controls="collapse_tags_list" aria-expanded="true" class="widget_title"
+                                     data-bs-target="#collapse_tags_list" data-bs-toggle="collapse" role="button">
+                                    Теги
+                                </div>
+                                <div class="collapse show" id="collapse_tags_list">
+                                    <div class="card card-body p-3">
+                                        <ul class="tags_list style_2 unordered_list">
+                                            <li><a href="#!">Linux Desktop</a></li>
+                                            <li><a href="#!">Fedora</a></li>
+                                            <li><a href="#!">Debian</a></li>
+                                            <li><a href="#!">Linux Mint</a></li>
+                                            <li><a href="#!">Open Source</a></li>
+                                            <li><a href="#!">Server</a></li>
+                                            <li><a href="#!">Operating Systems</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div aria-controls="collapse_calendar" aria-expanded="true" class="widget_title"
+                                     data-bs-target="#collapse_calendar" data-bs-toggle="collapse" role="button">
+                                    Календарь
+                                </div>
+                                <div class="collapse show" id="collapse_calendar">
+                                    <div class="card card-body p-3">
+                                        <div class="vanilla-calendar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--    Содержание - Конец    -->
+
+        <!--    Доп статьи - Начало    -->
+        <section class="blog_section section_space_lg">
+            <div class="container">
+                <div class="section_heading">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-5">
+                            <h2 class="heading_text mb-lg-0">
+                                Читайте также
+                            </h2>
+                        </div>
+                        <div class="col col-lg-7 d-none d-lg-flex justify-content-end">
+                            <div class="btn_wrap p-0">
+                                <a class="btn border_dark" href="blogs.html">
+                      <span>
+                        <small>Все статьи</small>
+                        <small>Все статьи</small>
+                      </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <div class="blog_item">
+                            <ul class="item_category_list unordered_list">
+                                <li><a href="#!">Повышение QoF</a></li>
+                            </ul>
+                            <div class="item_image">
+                                <a data-cursor-text="View" href="blog_python_automatization.html">
+                                    <img alt="Howlix - Просто об ОС" src="img/blog/preview_m/image_1.jpg">
+                                </a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="blog_python_automatization.html">
+                                        Автоматизация рутины с помощью Python
+                                    </a>
+                                </h3>
+                                <a class="btn_unfill" href="blog_python_automatization.html">
+                                    <span class="btn_text">Читать статью</span>
+                                    <span class="btn_icon">
+                        <i class="fas fa-long-arrow-right"></i>
+                        <i class="fas fa-long-arrow-right"></i>
+                      </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="blog_item">
+                            <ul class="item_category_list unordered_list">
+                                <li><a href="#!">GNU Linux</a></li>
+                            </ul>
+                            <div class="item_image">
+                                <a data-cursor-text="View" href="blog_linux_myth.html">
+                                    <img alt="Howlix - Просто об ОС" src="img/blog/preview_m/image_2.jpg">
+                                </a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="blog_linux_myth.html">
+                                        GNU Linux на настольных компьютерах: реальность или миф?
+                                    </a>
+                                </h3>
+                                <a class="btn_unfill" href="blog_linux_myth.html">
+                                    <span class="btn_text">Читать статью</span>
+                                    <span class="btn_icon">
+                        <i class="fas fa-long-arrow-right"></i>
+                        <i class="fas fa-long-arrow-right"></i>
+                      </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="blog_item">
+                            <ul class="item_category_list unordered_list">
+                                <li><a href="#!">Windows</a></li>
+                            </ul>
+                            <div class="item_image">
+                                <a data-cursor-text="View" href="blog_windows_installation.html">
+                                    <img alt="Howlix - Просто об ОС" src="img/blog/preview_m/image_3.jpg">
+                                </a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="blog_windows_installation.html">
+                                        Установка Windows на новый компьютер
+                                    </a>
+                                </h3>
+                                <a class="btn_unfill" href="blog_windows_installation.html">
+                                    <span class="btn_text">Читать статью</span>
+                                    <span class="btn_icon">
+                        <i class="fas fa-long-arrow-right"></i>
+                        <i class="fas fa-long-arrow-right"></i>
+                      </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn_wrap d-block d-lg-none pb-0 text-center">
+                    <a class="btn border_dark" href="blogs.html">
+                <span>
+                  <small>Все статьи</small>
+                  <small>Все статьи</small>
+                </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--    Доп статьи - Конец    -->
+
+        <!--    Новостная рассылка - Начало    -->
+        <section class="newslatter_section">
+            <div class="container">
+                <div class="newslatter_box" style="background-image: url('img/shape/shape_img_6.svg');">
+                    <div class="row justify-content-center">
+                        <div class="col col-lg-6">
+                            <div class="section_heading text-center">
+                                <h2 class="heading_text">
+                                    Подпишитесь и будьте на волне мира ОС
+                                </h2>
+                                <p class="heading_description mb-0">
+                                    Будьте в курсе новейших статей, гайдов и новостей в мире современных операционных
+                                    систем!
+                                </p>
+                            </div>
+                            <form action="#">
+                                <div class="form_item m-0">
+                                    <label>
+                                        <input name="email" placeholder="Ваш Email" type="email">
+                                    </label>
+                                    <button class="btn btn_dark" type="submit">
+                        <span>
+                          <small>Подписаться</small>
+                          <small>Подписаться</small>
+                        </span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--    Новостная рассылка - Конец    -->
+
+    </main>
+    <!--    Основной контент - Конец    -->
+
+    <!--    Подвал - Начало    -->
+    <footer class="site_footer">
+        <div class="footer_widget_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_widget">
+                            <div class="site_logo">
+                                <a class="site_link" href="index.html">
+                                    <img src="img/logo/site_logo_2.svg" alt="Howlix - Просто о мире ОС">
+                                </a>
+                            </div>
+                            <p>
+                                Ваш проводник в мир удивительных операционных систем. Мы помогаем вам узнать больше о современных ОС и повысить вашу продуктивность!
+                            </p>
+                            <ul class="social_links unordered_list">
+                                <li>
+                                    <a href="#!"><i class="fab fa-telegram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6">
+                        <div class="row">
+                            <div class="col col-md-4 col-sm-4">
+                                <div class="footer_widget">
+                                    <h3 class="footer_widget_title">Страницы</h3>
+                                    <ul class="page_list unordered_list_block">
+                                        <li>
+                                            <a href="index.html">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Главная</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="blogs.html">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Статьи</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="wip.html">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Цены</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col col-md-4 col-sm-4">
+                                <div class="footer_widget">
+                                    <h3 class="footer_widget_title">Темы</h3>
+                                    <ul class="page_list unordered_list_block">
+                                        <li>
+                                            <a href="#!">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Новости</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Настольные ОС</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Мобильные ОС</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Серверные ОС</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Программирование</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col col-md-4 col-sm-4">
+                                <div class="footer_widget">
+                                    <h3 class="footer_widget_title">Поддержка</h3>
+                                    <ul class="page_list unordered_list_block">
+                                        <li>
+                                            <a href="contact.html">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Центр поддержки</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="wip.html">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">FAQ</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Контакты</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">
+                                                <span class="item_icon"><i class="fas fa-caret-right"></i></span>
+                                                <span class="item_text">Формальности</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_widget">
+                            <h3 class="footer_widget_title">Последние статьи</h3>
+                            <ul class="blog_small_group unordered_list_block">
+                                <li>
+                                    <a class="blog_small" href="blog_python_automatization.html">
+                                            <span class="item_image">
+                                                <img alt="Howlix - Просто о мире ОС" src="img/blog/preview_s/page_python.png">
+                                            </span>
+                                        <span class="item_content">
+                                                <span class="item_author"><i class="fas fa-user-alt"></i> by  Evo-Eclipse</span>
+                                                <strong class="item_title">Автоматизация рутины с помощью Python</strong>
+                                                <small class="item_post_date">November 18, 2024</small>
+                                            </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="blog_small" href="blog_linux_myth.html">
+                                            <span class="item_image">
+                                              <img alt="Howlix - Просто о мире ОС" src="img/blog/preview_s/page_linux.png">
+                                            </span>
+                                        <span class="item_content">
+                                                <span class="item_author"><i class="fas fa-user-alt"></i> by  Evo-Eclipse</span>
+                                                <strong class="item_title">GNU Linux на настольных компьютерах: реальность или миф?</strong>
+                                                <small class="item_post_date">November 15, 2024</small>
+                                            </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_widget">
+            <div class="container">
+                <p class="copyright_text text-center mb-0">
+                    <a href="https://themeforest.net/user/merkulove">Evo-Eclipse</a> © <b>Howlix Blog</b> All rights reserved Copyrights 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--    Подвал - Конец    -->
+
+</div>
+<!--    Обертка - Конец    -->
+
+<!-- Framework - Jquery Include -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-dropdown-ml-hack.js"></script>
+
+<!-- animation - jquery include -->
+<script src="js/cursor.js"></script>
+<script src="js/tilt.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/parallax-scroll.js"></script>
+
+<!-- Carousel - Jquery Include -->
+<script src="js/slick.min.js"></script>
+
+<!-- Video & Image Popup - Jquery Include -->
+<script src="js/magnific-popup.min.js"></script>
+
+<!-- Counter Up - Jquery Include -->
+<script src="js/waypoint.js"></script>
+<script src="js/counterup.min.js"></script>
+
+<!-- Countdown Timer - jquery include -->
+<script src="js/countdown.js"></script>
+
+<!-- Vanilla Calendar - Jquery Include -->
+<script src="js/vanilla-calendar.min.js"></script>
+
+<!-- Custom - Jquery Include -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
