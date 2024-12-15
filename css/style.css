@@ -572,8 +572,8 @@ hr {
 .unordered_list,
 .unordered_list_end,
 .unordered_list_center {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -586,7 +586,6 @@ hr {
 .unordered_list > li,
 .unordered_list_end > li,
 .unordered_list_center > li {
-    float: left;
     list-style: none;
     display: inline-block;
 }
@@ -610,8 +609,8 @@ hr {
 }
 
 .unordered_list_block {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     display: block;
 }
 .unordered_list_block > li {
@@ -2323,7 +2322,7 @@ blockquote p {
     padding: 110px 30px 50px;
 }
 .filter_offcanvas.position-fixed > .content_wrapper::-webkit-scrollbar {
-    width: 0px;
+    width: 0;
 }
 .filter_offcanvas.position-fixed .close_btn_wrap {
     top: 0;
@@ -2521,8 +2520,8 @@ blockquote p {
 }
 .pricing_card:hover {
     z-index: 1;
-    -webkit-box-shadow: 0px 20px 40px 0px rgba(31, 29, 13, 0.08);
-    box-shadow: 0px 20px 40px 0px rgba(31, 29, 13, 0.08);
+    -webkit-box-shadow: 0 20px 40px 0 rgba(31, 29, 13, 0.08);
+    box-shadow: 0 20px 40px 0 rgba(31, 29, 13, 0.08);
 }
 .pricing_card .card_badge {
     top: 0;
@@ -2536,7 +2535,7 @@ blockquote p {
     text-transform: uppercase;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    border-radius: 0 0px 8px 8px;
+    border-radius: 0 0 8px 8px;
     background-color: #FFD32B;
 }
 .pricing_card .card_heading {
